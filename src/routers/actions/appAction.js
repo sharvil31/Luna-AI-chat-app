@@ -1,7 +1,7 @@
 import { redirect } from 'react-router-dom';
 import { getConversationTitle, getAiResponse } from '../../api/geminiAPI';
 import { account, databases } from '../../lib/appwrite';
-import generateID from '../../utils/generateId';
+import generateID from '../../utils/generateID';
 
 const userPromptAction = async (formData) => {
   const userPrompt = formData.get('user_prompt');
