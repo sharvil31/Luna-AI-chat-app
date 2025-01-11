@@ -1,6 +1,6 @@
 import { getAiResponse } from '../../api/geminiAPI';
 import { databases } from '../../lib/appwrite';
-import generateID from '../../utils/generateId';
+import generateID from '../../utils/generateID';
 
 const conversationAction = async ({ request, params }) => {
   const { conversationId } = params;
