@@ -1,4 +1,4 @@
-import model from '../lib/GeminiAi';
+import model from '../lib/GeminiAI';
 
 const getConversationTitle = async (userPrompt) => {
   try {
