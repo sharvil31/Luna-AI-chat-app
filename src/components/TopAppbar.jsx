@@ -12,7 +12,7 @@ import MenuItem from './MenuItem';
 import { LinearProgress } from './Progress';
 import { AnimatePresence } from 'framer-motion';
 import { useToggle } from '../hooks/useToggle';
-import logout from '../utils/logOut';
+import logout from '../utils/logout';
 import Logo from './Logo';
 import PropTypes from 'prop-types';
 import deleteConversation from '../utils/deleteConversation';
