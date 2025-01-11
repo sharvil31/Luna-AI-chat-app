@@ -7,7 +7,7 @@ import {
 import PageTitle from './components/PageTitle';
 import PromptField from './components/PromptField';
 import Sidebar from './components/Sidebar';
-import TopAppbar from './components/TopAppBar';
+import TopAppbar from './components/TopAppbar';
 import { useToggle } from './hooks/useToggle';
 import Greetings from './pages/Greetings';
 import { motion } from 'framer-motion';
