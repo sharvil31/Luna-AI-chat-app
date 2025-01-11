@@ -1,6 +1,6 @@
 
 import { account } from "../../lib/appwrite";
-import generateID from "../../utils/generateId";
+import generateID from "../../utils/generateID";
 import { redirect } from "react-router-dom";
 
 // console.log(import.meta.env.VITE_APPWRITE_PROJECT_ID);
